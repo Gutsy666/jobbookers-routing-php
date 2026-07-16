@@ -1,0 +1,30 @@
+{
+  "name": "jobbookers/routing",
+  "description": "PHP client for the Job Bookers UK Routing API",
+  "type": "library",
+  "license": "MIT",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Job Bookers",
+      "email": "hello@jobbookers.co.uk",
+      "homepage": "https://api.jobbookers.co.uk"
+    }
+  ],
+  "require": {
+    "php": ">=7.4",
+    "ext-curl": "*",
+    "ext-json": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "JobBookers\\Routing\\": "src/"
+    }
+  },
+  "keywords": ["uk", "routing", "postcode", "drive-time", "distance", "api"],
+  "homepage": "https://api.jobbookers.co.uk",
+  "support": {
+    "email": "hello@jobbookers.co.uk",
+    "source": "https://github.com/Gutsy666/jobbookers-routing-php"
+  }
+}
