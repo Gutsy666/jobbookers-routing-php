@@ -1,9 +1,17 @@
-```
 # Job Bookers Routing — PHP Client
 
 PHP client library for the [Job Bookers Routing API](https://api.jobbookers.co.uk) — UK drive time, distance, and postcode lookup.
 
 ## Installation
+
+Install directly from GitHub by adding the repository to your `composer.json`:
+
+```bash
+composer config repositories.jobbookers-routing vcs https://github.com/Gutsy666/jobbookers-routing-php
+composer require jobbookers/routing:dev-main
+```
+
+Once the package is listed on Packagist, this is all you will need:
 
 ```bash
 composer require jobbookers/routing
@@ -120,4 +128,3 @@ Contains public sector information licensed under the Open Government Licence v3
 ## Licence
 
 MIT
-```
